@@ -154,7 +154,7 @@ a:-webkit-any-link {
     width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("dept.jpg");
     background-repeat: no-repeat;
-    /* Add the blur effect 
+    /* Add the blur effect
     filter: blur(8px);
     -webkit-filter: blur(4px);*/
     background-size: 100% 100%;
@@ -371,6 +371,7 @@ figure:nth-child(4) {
 
 figure:nth-child(4)::before {
     content: "🏡";
+    font-size: 340pt;
 }
 
 figure:nth-child(5) {
@@ -379,7 +380,6 @@ figure:nth-child(5) {
 
 figure:nth-child(5)::before {
     content: "🌃";
-    font-size: 340pt;
 }
 
 figure:nth-child(6) {
@@ -390,6 +390,23 @@ figure:nth-child(6)::before {
     content: "🦜";
     font-size: 640pt;
 }
+figure:nth-child(8) {
+    --accent: #1eddfe;
+}
+
+figure:nth-child(8)::before {
+    content: "🍧";
+    font-size: 640pt;
+}
+figure:nth-child(7) {
+    --accent: #ffeb70;
+}
+
+figure:nth-child(7)::before {
+    content: "🥪";
+    font-size: 640pt;
+}
+
 
 
 /* carousal */
